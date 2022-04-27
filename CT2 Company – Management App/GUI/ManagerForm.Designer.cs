@@ -478,6 +478,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tbcManager);
             this.Name = "ManagerForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManagerForm";
             this.tbcManager.ResumeLayout(false);
             this.tpEmployees.ResumeLayout(false);
